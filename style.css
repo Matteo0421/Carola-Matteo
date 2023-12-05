@@ -1,0 +1,68 @@
+body{
+    background-image:url(background.jpg);
+    background-size: cover;
+}
+
+#container{
+    display: block;
+    width: 65%;
+    height: 75vh;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+header{
+    text-align: center;
+}
+
+header>img{
+    width: 20%;
+    position: relative;
+    top: 25px;
+}
+header>h2{
+    color: lime;
+    
+}
+
+nav{
+    width: 85%;
+    background-color: lime;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    height: 35px;
+    align-items: center;
+}
+
+main{
+    color: white;
+    margin-left: 65px;
+}
+
+section>h3{
+    display: inline;
+}
+
+#Gino-carica{
+    width: 35%;
+    height: 15px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+#Mike-carica{
+    width: 60%;
+    height: 15px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+#Fede-carica{
+    width: 15%;
+    height: 15px;
+    background-color: red;
+    border-radius: 5px;
+}
